@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/StratagemMain.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/DrawComponent.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/ImageLoader.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/MapImage.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/PlayerImages.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/StoredImages.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/StratagemGUI.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/gui/StratagemSound.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/ArmyTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/BuildingTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/DreadnaughtTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/FrigateTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/KernelTestSuite.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/MilitaryTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/NavyTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/OverlordTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/PlanetTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/PlayerTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/RagnarokTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/RaptorTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/ShadeTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/ShipyardTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/TrainingAcademyTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/junit/WarFactoryTest.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Army.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Battle.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Blackbox.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Building.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Dreadnaught.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Frigate.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Military.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Navy.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Overlord.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Planet.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Player.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Ragnarok.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Raptor.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Shade.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Shipyard.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/TrainingAcademy.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/WarFactory.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Whitebox.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/WhiteboxShannon.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/ClientCommandProcessor.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/ClientState.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/ServerCommandProcessor.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/ServerState.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/State.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/StratagemClient.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/StratagemServer.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/net/UserThread.java">
+</file>
+</checkstyle>

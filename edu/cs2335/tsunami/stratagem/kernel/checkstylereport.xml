@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Armored.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Army.java">
+<error line="8" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Artillery.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Battleship.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Building.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/City.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Destroyer.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Fighter.java">
+<error line="21" column="37" severity="error" message="Expected @param tag for &apos;args&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Infantry.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Military.java">
+<error line="65" column="36" severity="error" message="Expected @param tag for &apos;force&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="271" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Navy.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Planet.java">
+<error line="83" column="3" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="91" column="3" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+<error line="147" column="3" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck"/>
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Player.java">
+<error line="40" column="22" severity="error" message="Name &apos;IDGen&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="43" column="15" severity="error" message="Name &apos;ID&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="45" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="180" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="184" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="188" column="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Scout.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/Shipyard.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/TrainingAcademy.java">
+</file>
+<file name="/net/hu12/squinn/workspace/Stratagem/edu/cs2335/tsunami/stratagem/kernel/WarFactory.java">
+</file>
+</checkstyle>

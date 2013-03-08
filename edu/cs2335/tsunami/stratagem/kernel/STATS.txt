@@ -1,0 +1,10 @@
+TYPE        RAID/BOMARD  SPEED    BUILD COST            UPKEEP COST  BASE ATTACK ADVANTAGES           DISADVANTAGES
+====        ===========  =====    ==========            ===========  =========== ==========           =============
+
+Raptor      --           med      low--money            med--food                Raptor,Ragnarok      Frigate
+Ragnarok    bombard      slow     med--steel,money      low--oil                 all when raiding     all when not raiding
+Frigate     raid         fast     high--steel,money     high--oil                Raptor,Frigate       Ragnarok
+
+Shade       raid         fast     low--steel,money      med--oil                 Overlord,Shade       Dreadnaught
+Overlord    bombard      slow     high--steel,money     high--oil                Dreadnaught          Shade
+Dreadnaught bombard,raid med      med--steel,money      low--oil                 Shade                

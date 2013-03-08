@@ -1,0 +1,33 @@
+Blackbox Tests
+
+Chris Gray
+1) Testing for correct positioning of military units when an instance of the Battle
+class is created.
+
+  Valid A: Two outfits are passing each other en route to other planets.  Should stop
+    where they meet and conduct a battle.
+  Valid B: One outfit arrives on another planet with at least one enemy outfit 
+    stationed there.  Check for multiple stationed outfits if first one encountered 
+    is defeated.
+  Invalid: Outfits pass each other en route to respective planets (checking hard
+    locations not enough to detect this)
+ 
+ Tim Liu
+2) Client connections successfully communicating with server
+  Valid A: Clients understand duplicate nature of information being received from server,
+    and therefore enforce player ownership permissions.
+  Valid B: Clients operate independently of each other, notifying only the server of
+    changes and/or inquiring with requests for information.
+  Invalid: Both clients recognizing the same thing and responding in duplicate, i.e two
+    battles between the same two units occurring because they ran into each other en
+    route to their respective planets.
+    
+Shannon Quinn
+3) Player purchases an Overlord naval unit.
+  Valid A: Number of units currently in existence in game is checked against maximum
+    allowed number of units to detect if another unit can be built.
+  Valid B: Player should have at least COSTMONEY money and COSTSTEEL steel in their 
+    budgets to allow for purchase of naval unit in the first place.
+  Invalid: Player has less than COSTMONEY or less than COSTSTEEL, and unit is still built
+    and purchased, or resources are not subtracted, or resources are subtracted but go
+    into the negatives.

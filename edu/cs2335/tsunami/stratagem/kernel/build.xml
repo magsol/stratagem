@@ -1,0 +1,71 @@
+<project name="JUnit CheckStyle PMD" default="run">
+   <property name="tst-dir" location="." />
+
+   <path id="classpath.base">
+   </path>
+   <path id="classpath.test">
+      <pathelement location="${tst-dir}" />
+      <path refid="classpath.base" />
+   </path>
+
+   <target name="checkstyle">
+      <taskdef resource="checkstyletask.properties">
+         <classpath>
+            <fileset dir="/net/hu15/cs2335/java/checkstyle" >
+               <include name="**/*.jar" />
+            </fileset>
+         </classpath>
+      </taskdef>
+ 
+      <checkstyle config="/net/hu15/cs2335/java/checkstyle/docs/sun_checks.xml">
+         <fileset dir="${tst-dir}">
+            <include name="**/*.java" />
+         </fileset>
+         <classpath>
+            <pathelement location="${tst-dir}" />
+         </classpath>
+
+         <formatter type="plain" />
+         <formatter type="xml" toFile="${tst-dir}/checkstylereport.xml" />
+      </checkstyle>  
+   </target>   
+
+   <target name="pmd">
+      <classname name="/net/hu15/cs2335/java/pmd/docs/apidocs/net/sourceforge/pmd/ant"/>
+      <taskdef resource="pmd">
+        <classpath>
+            <fileset dir="/net/hu15/cs2335/java/pmd/lib" >
+               <include name="**/*.jar" />
+            </fileset>
+         </classpath>
+      </taskdef>
+
+      <fileset dir="${tst-dir}">
+         <include name="**/*.java" />
+      </fileset>
+      <classpath>
+         <pathelement location="${tst-dir}" />
+      </classpath>
+
+      <formatter type="html" toFile="${tst-dir}/pmdreport.html" />
+   </target>
+
+
+   <target name="run">
+      <javac srcdir="${tst-dir}" debug="true" >
+         <classpath refid="classpath.test" />
+      </javac>
+      <java classname="Album" fork="true">
+         <classpath>
+            <pathelement location="${tst-dir}" />
+         </classpath>
+      </java>
+   </target>
+
+   <target name="clean">
+      <delete verbose="${TALK}">
+         <fileset dir="${tst-dir}" includes="**/*.class" />
+      </delete>
+   </target>
+
+</project>

@@ -1,0 +1,79 @@
+<project name="JUnit CheckStyle PMD" default="run">
+   <property name="tst-dir" location="." />
+   <property name="pmd" location="/net/hu15/cs2335/java/pmd/docs/rules" />
+   <property name="pmdtask" location="/net/hu15/cs2335/java/pmd/docs/apidocs/net/sourceforge/pmd/ant" />
+
+   <path id="classpath.base">
+   </path>
+   <path id="classpath.test">
+      <pathelement location="${tst-dir}" />
+      <path refid="classpath.base" />
+   </path>
+
+   <target name="javadoc">
+     <javadoc destdir="docs/api">
+       <fileset dir=".">
+         <include name="**/*.java" />
+       </fileset>
+     </javadoc>
+   </target>
+
+   <target name="checkstyle">
+      <taskdef resource="checkstyletask.properties">
+         <classpath>
+            <fileset dir="/net/hu15/cs2335/java/checkstyle" >
+               <include name="**/*.jar" />
+            </fileset>
+         </classpath>
+      </taskdef>
+ 
+      <checkstyle config="/net/hu15/cs2335/java/checkstyle/docs/sun_checks.xml">
+         <fileset dir="${tst-dir}">
+            <include name="**/*.java" />
+         </fileset>
+         <classpath>
+            <pathelement location="${tst-dir}" />
+         </classpath>
+
+         <formatter type="plain" />
+         <formatter type="xml" toFile="${tst-dir}/checkstylereport.xml" />
+      </checkstyle>  
+   </target>   
+
+   <target name="pmd">
+     <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" >
+        <classpath>
+            <fileset dir="/net/hu15/cs2335/java/pmd/lib" includes="*.jar" />
+        </classpath>
+      </taskdef>
+
+      <pmd rulesetfiles="rulesets/imports.xml,rulesets/basic.xml,rulesets/unusedcode.xml,rulesets/design.xml">
+        <formatter type="html" toFile="${tst-dir}/pmdreport.html" />
+        <fileset dir=".">
+          <include name="**/*.java" />
+        </fileset>
+      </pmd>
+   </target>
+
+  <target name="compile">
+    <javac srcdir="${tst-dir}" debug="true" >
+      <classpath refid="classpath.test" />
+    </javac>
+  </target>
+ 
+  <target name="run" depends="compile">
+    <java classname="edu.cs2335.tsunami.stratagem.StratagemMain" fork="true">
+      <classpath>
+        <pathelement location="." />
+      </classpath>
+    </java>
+  </target>
+
+   <target name="clean">
+      <delete verbose="${TALK}">
+         <fileset dir="${tst-dir}" includes="**/*.class" />
+         <fileset dir="docs" includes="**/*.html" />
+      </delete>
+   </target>
+
+</project>
